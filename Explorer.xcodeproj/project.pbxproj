@@ -13,6 +13,10 @@
 		F5A526F41A2F41E400BC5220 /* CoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A526F31A2F41E400BC5220 /* CoreDataService.m */; };
 		F5A526F71A2F420000BC5220 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A526F61A2F420000BC5220 /* Service.m */; };
 		F5A526FA1A2F427B00BC5220 /* Injector.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A526F91A2F427B00BC5220 /* Injector.m */; };
+		F5A526FD1A2F473D00BC5220 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A526FC1A2F473D00BC5220 /* Ship.m */; };
+		F5A527001A2F474800BC5220 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A526FF1A2F474800BC5220 /* Player.m */; };
+		F5A527031A2F475100BC5220 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A527021A2F475100BC5220 /* Planet.m */; };
+		F5A527061A2F478C00BC5220 /* CrewMember.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A527051A2F478C00BC5220 /* CrewMember.m */; };
 		F5B07B7E1A29F86700BE5AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B07B7D1A29F86700BE5AAD /* main.m */; };
 		F5B07B811A29F86700BE5AAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B07B801A29F86700BE5AAD /* AppDelegate.m */; };
 		F5B07B841A29F86700BE5AAD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B07B831A29F86700BE5AAD /* GameScene.m */; };
@@ -23,7 +27,6 @@
 		F5B07B911A29F86700BE5AAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B07B8F1A29F86700BE5AAD /* LaunchScreen.xib */; };
 		F5B07B9D1A29F86700BE5AAD /* ExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B07B9C1A29F86700BE5AAD /* ExplorerTests.m */; };
 		F5B30E5A1A2DE702003CEB02 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B30E591A2DE702003CEB02 /* GameObject.m */; };
-		F5B30E5D1A2DE7C6003CEB02 /* GameComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B30E5C1A2DE7C6003CEB02 /* GameComponent.m */; };
 		F5B30E601A2DE864003CEB02 /* SpriteController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B30E5F1A2DE864003CEB02 /* SpriteController.m */; };
 		F5B30E631A2DECE9003CEB02 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B30E621A2DECE9003CEB02 /* Tile.m */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,14 @@
 		F5A526F61A2F420000BC5220 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
 		F5A526F81A2F427B00BC5220 /* Injector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Injector.h; sourceTree = "<group>"; };
 		F5A526F91A2F427B00BC5220 /* Injector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Injector.m; sourceTree = "<group>"; };
+		F5A526FB1A2F473D00BC5220 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		F5A526FC1A2F473D00BC5220 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		F5A526FE1A2F474800BC5220 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F5A526FF1A2F474800BC5220 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		F5A527011A2F475100BC5220 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		F5A527021A2F475100BC5220 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		F5A527041A2F478C00BC5220 /* CrewMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrewMember.h; sourceTree = "<group>"; };
+		F5A527051A2F478C00BC5220 /* CrewMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrewMember.m; sourceTree = "<group>"; };
 		F5B07B781A29F86700BE5AAD /* Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Explorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B07B7C1A29F86700BE5AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B07B7D1A29F86700BE5AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,8 +80,6 @@
 		F5B07B9C1A29F86700BE5AAD /* ExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplorerTests.m; sourceTree = "<group>"; };
 		F5B30E581A2DE702003CEB02 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		F5B30E591A2DE702003CEB02 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
-		F5B30E5B1A2DE7C6003CEB02 /* GameComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameComponent.h; sourceTree = "<group>"; };
-		F5B30E5C1A2DE7C6003CEB02 /* GameComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameComponent.m; sourceTree = "<group>"; };
 		F5B30E5E1A2DE864003CEB02 /* SpriteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteController.h; sourceTree = "<group>"; };
 		F5B30E5F1A2DE864003CEB02 /* SpriteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteController.m; sourceTree = "<group>"; };
 		F5B30E611A2DECE9003CEB02 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
@@ -117,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				F5B30E641A2DF10B003CEB02 /* Services */,
-				F5B30E571A2DE6EE003CEB02 /* GameComponents */,
 				F5B30E561A2DE6DF003CEB02 /* SpriteControllers */,
 				F5B30E551A2DE6CC003CEB02 /* GameObjects */,
 				F5B07B7F1A29F86700BE5AAD /* AppDelegate.h */,
@@ -170,6 +178,14 @@
 				F5B30E621A2DECE9003CEB02 /* Tile.m */,
 				F5A526E91A2F38DD00BC5220 /* TileMap.h */,
 				F5A526EA1A2F38DD00BC5220 /* TileMap.m */,
+				F5A526FB1A2F473D00BC5220 /* Ship.h */,
+				F5A526FC1A2F473D00BC5220 /* Ship.m */,
+				F5A526FE1A2F474800BC5220 /* Player.h */,
+				F5A526FF1A2F474800BC5220 /* Player.m */,
+				F5A527011A2F475100BC5220 /* Planet.h */,
+				F5A527021A2F475100BC5220 /* Planet.m */,
+				F5A527041A2F478C00BC5220 /* CrewMember.h */,
+				F5A527051A2F478C00BC5220 /* CrewMember.m */,
 			);
 			name = GameObjects;
 			sourceTree = "<group>";
@@ -181,15 +197,6 @@
 				F5B30E5F1A2DE864003CEB02 /* SpriteController.m */,
 			);
 			name = SpriteControllers;
-			sourceTree = "<group>";
-		};
-		F5B30E571A2DE6EE003CEB02 /* GameComponents */ = {
-			isa = PBXGroup;
-			children = (
-				F5B30E5B1A2DE7C6003CEB02 /* GameComponent.h */,
-				F5B30E5C1A2DE7C6003CEB02 /* GameComponent.m */,
-			);
-			name = GameComponents;
 			sourceTree = "<group>";
 		};
 		F5B30E641A2DF10B003CEB02 /* Services */ = {
@@ -310,15 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A527001A2F474800BC5220 /* Player.m in Sources */,
 				F5B30E5A1A2DE702003CEB02 /* GameObject.m in Sources */,
 				F5A526EE1A2F41CC00BC5220 /* WebSocketService.m in Sources */,
 				F5A526F11A2F41D700BC5220 /* HTTPService.m in Sources */,
+				F5A527031A2F475100BC5220 /* Planet.m in Sources */,
 				F5A526FA1A2F427B00BC5220 /* Injector.m in Sources */,
 				F5A526F71A2F420000BC5220 /* Service.m in Sources */,
+				F5A526FD1A2F473D00BC5220 /* Ship.m in Sources */,
+				F5A527061A2F478C00BC5220 /* CrewMember.m in Sources */,
 				F5B07B891A29F86700BE5AAD /* GameViewController.m in Sources */,
 				F5A526F41A2F41E400BC5220 /* CoreDataService.m in Sources */,
 				F5B07B811A29F86700BE5AAD /* AppDelegate.m in Sources */,
-				F5B30E5D1A2DE7C6003CEB02 /* GameComponent.m in Sources */,
 				F5B30E601A2DE864003CEB02 /* SpriteController.m in Sources */,
 				F5B07B841A29F86700BE5AAD /* GameScene.m in Sources */,
 				F5A526EB1A2F38DD00BC5220 /* TileMap.m in Sources */,
