@@ -16,6 +16,13 @@
 
 @implementation GameObject
 
+- (id)initWithName:(NSString *)name {
+  if (self = [super init]) {
+    self.name = name;
+  }
+  return self;
+}
+
 - (NSString *)description {
   return [NSString stringWithFormat:@"<GameObject:%@:%@>", NSStringFromClass([self class]), self.name];
 }

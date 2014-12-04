@@ -14,6 +14,8 @@
 
 @interface SpriteController : NSObject
 
+@property (nonatomic, retain) SKNode *node;
+
 -(id)initWithNode:(SKNode *)node;
 
 @end

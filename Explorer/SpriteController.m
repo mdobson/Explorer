@@ -10,4 +10,11 @@
 
 @implementation SpriteController
 
+-(id) initWithNode:(SKNode *)node {
+  if (self = [super init]) {
+    self.node = node;
+  }
+  return self;
+}
+
 @end

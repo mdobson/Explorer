@@ -10,17 +10,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GameComponent.h"
-#import "SpriteController.h"
+#import <SpriteKit/SpriteKit.h>
 
 @interface GameObject : NSObject
 
-@property (nonatomic, readonly) NSArray* components;
-@property (nonatomic, readonly, setter=setSpriteController:) SpriteController* controller;
+@property (nonatomic, retain) SKSpriteNode* node;
 
 -(id)initWithName:(NSString*) name;
--(id)initWithName:(NSString *)name andSpriteController:(SpriteController *)controller;
--(void)setSpriteController:(SpriteController*)controller;
--(void)addComponent:(GameComponent*)component;
 
 @end
